@@ -14,7 +14,7 @@
 	"Installed": false,
 	"Modules": [
 		{
-			"Name": "YGGNetworking",
+			"Name": "UDPWrapper",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		},
