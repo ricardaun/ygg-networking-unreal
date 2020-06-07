@@ -3,9 +3,9 @@
 using UnrealBuildTool;
 using System.IO;
 
-public class YGGNetworking : ModuleRules
+public class UDPWrapper : ModuleRules
 {
-	public YGGNetworking(ReadOnlyTargetRules Target) : base(Target)
+	public UDPWrapper(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
 		

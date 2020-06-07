@@ -9,7 +9,7 @@ DECLARE_DYNAMIC_MULTICAST_DELEGATE(FUDPEventSignature);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FUDPMessageSignature, const TArray<uint8>&, Bytes);
 
 UCLASS(ClassGroup = "Networking", meta = (BlueprintSpawnableComponent))
-class YGGNetworking_API UUDPComponent : public UActorComponent
+class UDPWRAPPER_API UUDPComponent : public UActorComponent
 {
 	GENERATED_UCLASS_BODY()
 public:

@@ -5,7 +5,7 @@
 #include "CoreMinimal.h"
 #include "Modules/ModuleManager.h"
 
-class FYGGNetworkingModule : public IModuleInterface
+class FUDPWrapperModule : public IModuleInterface
 {
 public:
 
