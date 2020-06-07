@@ -32,6 +32,19 @@
 			]
 		},
 		{
+			"Name": "CoreUtility",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Win32",
+				"Linux",
+				"Mac",
+				"Android",
+				"IOS"
+			]
+		},
+		{
 			"Name": "SIOJEditorPlugin",
 			"Type": "Editor",
 			"LoadingPhase": "Default",
